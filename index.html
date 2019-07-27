@@ -1,20 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
+<!DOCTYPE html>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
     <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-
 <div class="grid">
-    <div class="quiz">
+    <div id="quiz">
         <h1>Quiz</h1>
-        <hr style="margin-top: 20px">
+        <hr style="margin-bottom: 20px">
 
         <p id="question"></p>
 
@@ -26,14 +21,14 @@
         </div>
 
         <hr style="margin-top: 50px">
-
         <footer>
-            <p id="progress">Question x of y.</p>
+            <p id="progress">Question x of y</p>
         </footer>
     </div>
 </div>
 
-
-<script src="script.js"></script>
+<script src="app.js"></script>
+<script src="question.js"></script>
+<script src="quiz_controller.js"></script>
 </body>
 </html>
